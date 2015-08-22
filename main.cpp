@@ -4,13 +4,10 @@
 int main() {
 
     auto instance = lua::LuaWrapper::newInstanceOnStack();
-    instance->pushObjectOnLuaStack<int>(3);
+    instance->callLuaFunction<int>("qweqw", 3.0f, 2);
+    auto f = instance->getLuaFunction<int>("qwewq", 3.2);
+    f();
 
-    lua::LuaWrapper wrapper{};
-
-    wrapper.pushObjectOnLuaStack<int>(2);
-    std::string e ="qweqw";
-    wrapper.callLuaFunction(e, 2, 3, 1, "qweqw", 3.0f);
     return 0;
 }
 

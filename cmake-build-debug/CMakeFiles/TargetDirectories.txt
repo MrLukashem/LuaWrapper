@@ -1,0 +1,3 @@
+C:/Users/lmerta/Documents/LuaWrapper_2019/LuaWrapper_2019/cmake-build-debug/CMakeFiles/LuaWrapper_2019.dir
+C:/Users/lmerta/Documents/LuaWrapper_2019/LuaWrapper_2019/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lmerta/Documents/LuaWrapper_2019/LuaWrapper_2019/cmake-build-debug/CMakeFiles/rebuild_cache.dir

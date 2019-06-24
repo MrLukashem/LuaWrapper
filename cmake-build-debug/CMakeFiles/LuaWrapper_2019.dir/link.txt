@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\LuaWrapper_2019.dir/objects.a
+"C:\Program Files (x86)\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe" cr CMakeFiles\LuaWrapper_2019.dir/objects.a @CMakeFiles\LuaWrapper_2019.dir\objects1.rsp
+"C:\Program Files (x86)\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE" -g   -Wl,--whole-archive CMakeFiles\LuaWrapper_2019.dir/objects.a -Wl,--no-whole-archive  -o LuaWrapper_2019.exe -Wl,--out-implib,libLuaWrapper_2019.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LuaWrapper_2019.dir\linklibs.rsp
